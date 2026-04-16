@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReduxSDK-Launcher", "ReduxSDK-Launcher\ReduxSDK-Launcher.csproj", "{D57C68B7-9963-4BB2-BB3E-883AE2A78060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D57C68B7-9963-4BB2-BB3E-883AE2A78060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57C68B7-9963-4BB2-BB3E-883AE2A78060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57C68B7-9963-4BB2-BB3E-883AE2A78060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57C68B7-9963-4BB2-BB3E-883AE2A78060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DAD4A41-9C99-4DBC-9528-18B31D7A9E24}
+	EndGlobalSection
+EndGlobal
