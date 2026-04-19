@@ -146,12 +146,12 @@ namespace ReduxSDK_Launcher
             // 
             this.linkDiscord.AutoSize = true;
             this.linkDiscord.LinkColor = System.Drawing.Color.Lavender;
-            this.linkDiscord.Location = new System.Drawing.Point(295, 9);
+            this.linkDiscord.Location = new System.Drawing.Point(290, 9);
             this.linkDiscord.Name = "linkDiscord";
-            this.linkDiscord.Size = new System.Drawing.Size(238, 13);
+            this.linkDiscord.Size = new System.Drawing.Size(243, 13);
             this.linkDiscord.TabIndex = 9;
             this.linkDiscord.TabStop = true;
-            this.linkDiscord.Text = "Metro Modding - https://discord.gg/RtWafj3GDb";
+            this.linkDiscord.Text = "Metro Modding - https://discord.gg/metromodding";
             this.linkDiscord.MouseClick += new System.Windows.Forms.MouseEventHandler(this.onLinkDiscordClick);
             // 
             // MainForm

@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Diagnostics;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ReduxSDK_Launcher
 {
@@ -34,6 +33,7 @@ namespace ReduxSDK_Launcher
             InitializeComponent();
 
             dirNotFound = !ScanMapsToTree();
+            //dirNotFound = false; // TEST
             if (dirNotFound)
             {
                 MessageBox.Show("Directory '" + basePath + "' not found.");
@@ -136,7 +136,7 @@ namespace ReduxSDK_Launcher
         private void onGameClick(object sender, EventArgs e)
         {
             if (!String.IsNullOrEmpty(textBoxArgs.Text)) {
-                Process.Start("bin_x64\\uengine_m.exe", "-game " + textBoxArgs.Text);
+                Process.Start("bin_x64\\uengine_m.exe", textBoxArgs.Text);
                 Application.Exit();
             } else {
                 MessageBox.Show("Level not selected!");
@@ -145,7 +145,7 @@ namespace ReduxSDK_Launcher
 
         private void onLinkDiscordClick(object sender, MouseEventArgs e)
         {
-            Process.Start("https://discord.gg/RtWafj3GDb");
+            Process.Start("https://discord.gg/metromodding");
         }
     }
 }
