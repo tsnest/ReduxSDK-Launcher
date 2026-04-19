@@ -119,7 +119,14 @@ namespace ReduxSDK_Launcher
             var node = e.Node;
 
             if(node?.Tag != null) {
-                textBoxArgs.Text = "-map " + node.Tag.ToString();
+                string map_name = node.Tag.ToString();
+                if (map_name.StartsWith("2033\\")) {
+                    textBoxArgs.Text = "-build_key 2033 -map " + node.Tag.ToString();
+                } else if (map_name.StartsWith("2034\\")) {
+                    textBoxArgs.Text = "-build_key 2034 -map " + node.Tag.ToString();
+                } else {
+                    textBoxArgs.Text = "-map " + node.Tag.ToString();
+                }
             }
         }
 
